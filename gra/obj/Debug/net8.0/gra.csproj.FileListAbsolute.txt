@@ -1,0 +1,14 @@
+/home/bula/RiderProjects/gra/gra/bin/Debug/net8.0/gra
+/home/bula/RiderProjects/gra/gra/bin/Debug/net8.0/gra.deps.json
+/home/bula/RiderProjects/gra/gra/bin/Debug/net8.0/gra.runtimeconfig.json
+/home/bula/RiderProjects/gra/gra/bin/Debug/net8.0/gra.dll
+/home/bula/RiderProjects/gra/gra/bin/Debug/net8.0/gra.pdb
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.GeneratedMSBuildEditorConfig.editorconfig
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.AssemblyInfoInputs.cache
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.AssemblyInfo.cs
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.csproj.CoreCompileInputs.cache
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.dll
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/refint/gra.dll
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.pdb
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.genruntimeconfig.cache
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/ref/gra.dll
