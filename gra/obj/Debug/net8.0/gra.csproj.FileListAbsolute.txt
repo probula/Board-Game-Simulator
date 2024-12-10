@@ -12,3 +12,4 @@
 /home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.pdb
 /home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.genruntimeconfig.cache
 /home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/ref/gra.dll
+/home/bula/RiderProjects/gra/gra/obj/Debug/net8.0/gra.sourcelink.json
