@@ -8,20 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/bula/.nuget/packages/": {}
+    "C:\\Users\\Igor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bula/RiderProjects/gra/gra/gra.csproj",
+      "projectUniqueName": "C:\\Users\\Igor\\RiderProjects\\Board-Game-Simulator\\gra\\gra.csproj",
       "projectName": "gra",
-      "projectPath": "/home/bula/RiderProjects/gra/gra/gra.csproj",
-      "packagesPath": "/home/bula/.nuget/packages/",
-      "outputPath": "/home/bula/RiderProjects/gra/gra/obj/",
+      "projectPath": "C:\\Users\\Igor\\RiderProjects\\Board-Game-Simulator\\gra\\gra.csproj",
+      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Igor\\RiderProjects\\Board-Game-Simulator\\gra\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/home/bula/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -39,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

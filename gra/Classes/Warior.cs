@@ -1,18 +1,32 @@
 namespace gra.Classes;
+using gra.Interfaces;
 
-public class Warior: Player
+public class Warior : IPlayer
 {
-    public Warior(string name) : base(name) { }
-    public override void Rusz()
+    public string Name { get; set; }
+    public int Position { get; set; }
+    public int Score { get; set; }
+
+    public Warior(string name)
+    {
+        Name = name;
+        Position = 0;
+        Score = 0;
+    }
+    public void Rusz()
     {
         Random r = new Random();
         int rInt = r.Next(1, 10);
-        Console.WriteLine("$\nWojownik {Name} rzuca kostką. Kostka wylosowała: {rInt}");
+        Console.WriteLine($"\nWojownik {Name} rzuca kostką. Kostka wylosowała: {rInt}");
 
         Position += rInt;
         Score += rInt; //pozycja = punkty
         
-        Console.WriteLine($"Gracz: {playerName} znajdje się na pozycji: {Position}");
-        
+        Console.WriteLine($"Gracz: {Name} znajdje się na pozycji: {Position}");
+    }
+    
+    public void Punkty()
+    {
+        Console.WriteLine($"Gracz {Name} ma {Score} punktów");
     }
 }

@@ -2,7 +2,8 @@ using gra.Interfaces;
 
 namespace gra.Classes;
 
-public class Player {
+public class Player : IPlayer
+{
     public string Name { get; set; }
     public int Position { get; set; }
     public int Score { get; set; }
