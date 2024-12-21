@@ -23,7 +23,8 @@ internal class Program
 
         // Deklaracja graczy jako IPlayer
         IPlayer gracz1, gracz2;
-
+        
+        
         // Wybór odpowiedniego typu gracza
         if (typGracza1 == 1)
         {
@@ -44,7 +45,8 @@ internal class Program
             gracz2 = new Warior(playerName2);
         }
 
-
+        Game game = new Game(gracz1, gracz2); //obiekt klasy z przekqazanymi dwoma graczami
+        
         for (int i = 0; i < turCount; i++)
         {
             //tura gracza 1
@@ -53,7 +55,7 @@ internal class Program
             Console.WriteLine("Naciśnij Enter, aby rzucić kostką...");
             Console.ReadKey();
             gracz1.Rusz();
-            Board.SprawdzNagrode(gracz1);
+            Game.SprawdzNagrode(gracz1);
 
             //tura gracza 2
             Console.WriteLine($"\nTura {i + 1} - Gracz 2 ({gracz2.Name}):");
@@ -61,24 +63,14 @@ internal class Program
             Console.WriteLine("Naciśnij Enter, aby rzucić kostką...");
             Console.ReadKey();
             gracz2.Rusz();
-            Board.SprawdzNagrode(gracz2);
+            Game.SprawdzNagrode(gracz2);
 
         }
 
         Console.WriteLine("\ngra sie zakonczyla!");
+        game.Wyniki();
+        
 
-        if (gracz1.Score > gracz2.Score)
-        {
-            Console.WriteLine($"Zwycięzcą jest {gracz1.Name} z {gracz1.Score} punktami!. {gracz1.Name} miał {(gracz1.Score - gracz2.Score)-1} punktów przewagi!.");
-        }
-        else if (gracz2.Score > gracz1.Score)
-        {
-            Console.WriteLine($"Zwycięzcą jest {gracz2.Name} z {gracz2.Score} punktami!. {gracz2.Name} miał {(gracz2.Score - gracz1.Score)-1} punktów przewagi!.");
-        }
-        else
-        {
-            Console.WriteLine("Gra zakończyła się remisem!");
-        }
     }
 }
 

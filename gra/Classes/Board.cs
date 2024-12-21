@@ -14,11 +14,4 @@ public class Board
         Console.WriteLine($"Nagroda! Gracz {player.Name} otrzymuje {rInt2} punktów.");
     }
     
-    public static void SprawdzNagrode(IPlayer player)
-    {
-        if (player.Position % 4 == 0) //co 4 pole daje nagrode
-        {
-            Nagroda(player);
-        }
-    }
 }
